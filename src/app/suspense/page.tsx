@@ -40,7 +40,7 @@ const Weather = () => {
 
 const Page = () => {
   return (
-    <Suspense fallback={'Loading'}>
+    <Suspense fallback={<div>Loading</div>}>
       <Weather />
     </Suspense>
   );
